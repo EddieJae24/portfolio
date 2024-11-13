@@ -1,45 +1,50 @@
 // src/pages/Portfolio.jsx
 import Project from '../components/Projects';
-import projectImage1 from '../assets/HTML_CSS_JS.jpg';  // example image
-import projectImage2 from '../assets/Express.jpg';  // example image
+import projectImage1 from '../assets/Paws&Meows.png';  // example image
+import projectImage2 from '../assets/EmployeeTracker.png';  // example image
+import projectImage3 from '../assets/CarBuilder.png';  // example image
+import projectImage4 from '../assets/AutoREADME.png';  // example image
+import projectImage5 from '../assets/WeatherAPI.png';  // example image
+import projectImage6 from '../assets/PortfolioBuilder.png';  // example image
 
 function Portfolio() {
   const projects = [
     {
-      title: 'HTML & CSS',
+      title: 'Paws-and-Meows-Inc',
       image: projectImage1,
-      appLink: 'https://project-one.com',
-      repoLink: 'https://github.com/yourusername/project-one',
+      appLink: 'https://arstanciel.github.io/Paws-and-Meows-Inc./',
+      repoLink: 'https://github.com/arstanciel/Paws-and-Meows-Inc.',
     },
     {
-      title: 'JavaScript',
+      title: 'Employee Tracker',
       image: projectImage2,
-      appLink: 'https://project-two.com',
-      repoLink: 'https://github.com/yourusername/project-two',
+      appLink: 'https://app.screencastify.com/v2/manage/videos/Htm6v0B3uHGpmHDYpXEq',
+      repoLink: 'https://github.com/EddieJae24/Employee-Tracker',
     },
     {
-        title: 'Typescript and OOP',
-        image: projectImage1,
-        appLink: 'https://project-three.com',
-        repoLink: 'https://github.com/yourusername/project-three',
+        title: 'CarBuilder',
+        image: projectImage3,
+        appLink: 'https://app.screencastify.com/v3/watch/MxoTcKkONmA23FIJVjR4',
+        repoLink: 'https://github.com/EddieJae24/carbuilder',
     },
     {
-        title: 'Express',
-        image: projectImage2,
-        appLink: 'https://project-four.com',
-        repoLink: '',
+        title: 'AutoREADME Generator',
+        image: projectImage4,
+        appLink: 'https://app.screencastify.com/v2/manage/videos/WxBo4hbrEZZKtYWYT5QS',
+        repoLink: 'https://github.com/EddieJae24/AutoREADME-Repo',
     },
     {
-        title: 'React',
-        image: projectImage1,
-        appLink: 'https://project-five.com',
-        repoLink: '',
+        title: 'WeatherAPI',
+        image: projectImage5,
+        appLink: 'https://dashboard.render.com/web/srv-csc6csggph6c73bmt32g',
+        repoLink: 'https://github.com/EddieJae24/weather-forecast',
     },
+
     {
-        title: 'Node.js',
-        image: projectImage2,
-        appLink: 'https://project-six.com',
-        repoLink: '',
+        title: 'PortfolioBuilder',
+        image: projectImage6,
+        appLink: 'https://dulcet-cassata-f8feee.netlify.app/',
+        repoLink: 'https://github.com/EddieJae24/portfolio',
     },
   ];
 

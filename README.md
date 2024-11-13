@@ -2,7 +2,8 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  The Auto README generator is a professional tool designed to simplify the creation of high quality README files for your software projects. It automates the tedious work of structuring , formatting and content creation for a README allowing you to quickly generate an informative and standardized document
+  This is a single-page webpage developed using the React library that highlights the portfolio of a web  developer. The AboutMe page contains developer's name and navigation with titles corresponding to different sections of the portfolio including the About Me, Portfolio, Contact, and Resume. 
+
 
   ## Table of Contents
   - [Installation](#installation)
