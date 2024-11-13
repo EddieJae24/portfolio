@@ -22,7 +22,13 @@ function Contact() {
     } else {
       alert('Form submitted!');
     }
-  };
+   
+    {setFormData({ name: '', email: '', message: '' });
+    setError({}); 
+    }
+    
+};
+
 
   return (
     <section className="contact">
@@ -57,7 +63,14 @@ function Contact() {
         <button type="submit">Submit</button>
       </form>
     </section>
+
   );
 }
+
+
+
+
+
+
 
 export default Contact;

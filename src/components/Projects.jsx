@@ -1,4 +1,4 @@
-// src/components/Project.jsx
+// src/components/Project.js
 function Project({ title, image, appLink, repoLink }) {
     return (
       <div className="project">

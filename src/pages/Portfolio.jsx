@@ -6,16 +6,40 @@ import projectImage2 from '../assets/Express.jpg';  // example image
 function Portfolio() {
   const projects = [
     {
-      title: 'Project One',
+      title: 'HTML & CSS',
       image: projectImage1,
       appLink: 'https://project-one.com',
       repoLink: 'https://github.com/yourusername/project-one',
     },
     {
-      title: 'Project Two',
+      title: 'JavaScript',
       image: projectImage2,
       appLink: 'https://project-two.com',
       repoLink: 'https://github.com/yourusername/project-two',
+    },
+    {
+        title: 'Typescript and OOP',
+        image: projectImage1,
+        appLink: 'https://project-three.com',
+        repoLink: 'https://github.com/yourusername/project-three',
+    },
+    {
+        title: 'Express',
+        image: projectImage2,
+        appLink: 'https://project-four.com',
+        repoLink: '',
+    },
+    {
+        title: 'React',
+        image: projectImage1,
+        appLink: 'https://project-five.com',
+        repoLink: '',
+    },
+    {
+        title: 'Node.js',
+        image: projectImage2,
+        appLink: 'https://project-six.com',
+        repoLink: '',
     },
   ];
 
